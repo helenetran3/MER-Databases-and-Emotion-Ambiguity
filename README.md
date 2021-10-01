@@ -8,9 +8,9 @@ Databases are divided into two categories: those with a discrete representation 
 
 ## Discrete Emotion Representation
 
-### Description of the databases
+This section present the general information of the databases that have chosen a discrete representation of emotions ( [Description of the Databases](#Description-of-the-databases---Discrete) subsection). The table listing the criteria for introducing ambiguity into the emotion representation can be found in the [Databases and Emotional Ambiguity](#Databases-and-emotional-ambiguity---Discrete) subsection.
 
-The table listing the criteria for emotional ambiguity representation can be found [in this subsection](#Databases-and-emotional-ambiguity-(D)).
+### Description of the Databases - Discrete
 
 Name | Year | Language | Modalities | Classes | Number sentences | Description
 -----|------|----------|------------|---------|-----------------------|------------ 
@@ -22,7 +22,7 @@ Name | Year | Language | Modalities | Classes | Number sentences | Description
 
 
 
-### Databases and emotional ambiguity (D)
+### Databases and Emotional Ambiguity - Discrete
 
 Name | Year | Final annotation | \# annotations per sentence | Aggregation of annotations
 -----|------|------------------|------------------------------------|--------------------------
@@ -36,7 +36,9 @@ Name | Year | Final annotation | \# annotations per sentence | Aggregation of an
 
 ## Continuous Emotion Representation
 
-The table listing the criteria for emotional ambiguity representation can be found [in this subsection](#Databases-and-emotional-ambiguity-(C)).
+This section present the general information of the databases that have chosen a discrete representation of emotions ( [Description of the Databases](#Description-of-the-databases---Continuous) subsection). The table listing the criteria for introducing ambiguity into the emotion representation can be found in the [Databases and Emotional Ambiguity](#Databases-and-emotional-ambiguity---Continuous) subsection.
+
+### Description of the Databases - Continuous
 
 Name | Year | Language | Modalities | Classes | Number sentences | Description
 -----|------|----------|------------|---------|-----------------------|------------ 
@@ -50,7 +52,7 @@ IEMOCAP* ([paper](https://ieeexplore.ieee.org/abstract/document/5959155)) | 2008
 [^SEMAINE]: No information provided on the number of annotated sentences. 
 
 
-### Databases and emotional ambiguity (C)
+### Databases and Emotional Ambiguity - Continuous
 
 Name | Year | Final annotation | \# annotations per sentence | Aggregation of annotations
 -----|------|------------------|------------------------------------|--------------------------

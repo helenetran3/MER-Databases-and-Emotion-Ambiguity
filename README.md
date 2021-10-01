@@ -10,7 +10,7 @@ Databases are divided into two categories: those with a discrete representation 
 
 ### Description of the databases
 
-The table listing the criteria for emotional ambiguity representation can be found [here](#Database-positioning-regarding-emotional-ambiguity)
+The table listing the criteria for emotional ambiguity representation can be found [here](#Database-positioning-regarding-emotional-ambiguity).
 
 Name | Year | Language | Modalities | Classes | Number sentences | Description
 -----|------|----------|------------|---------|-----------------------|------------ 
@@ -24,11 +24,11 @@ Name | Year | Language | Modalities | Classes | Number sentences | Description
 
 Name | Year | Final annotation | \# annotations per sentence | Aggregation of annotations
 -----|------|------------------|------------------------------------|--------------------------
- [CMU-MOSEAS](https://github.com/A2Zadeh/CMU-MultimodalSDK) ([paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8106386/)) | 2020 | Many emotions possible per sentence | 3 | Not reported
- [CMU-MOSEI](https://github.com/A2Zadeh/CMU-MultimodalSDK) ([paper](https://aclanthology.org/P18-1208.pdf)) | 2018 | Many emotions possible per sentence | 3 | Not reported
- [OMG-Emotions](https://github.com/knowledgetechnologyuhh/OMGEmotionChallenge)* ([paper](https://ieeexplore.ieee.org/abstract/document/8489099)) | 2018 | One emotion per sentence | 5 | Majority vote
- [MELD](https://affective-meld.github.io/) ([paper](https://arxiv.org/pdf/1810.02508.pdf)) | 2018 | One emotion per sentence | 3 | Majority vote
- IEMOCAP* ([paper](https://link.springer.com/article/10.1007/s10579-008-9076-6)) | 2008 | One emotion per sentence | 3 | Majority vote
+ [CMU-MOSEAS](https://github.com/A2Zadeh/CMU-MultimodalSDK) | 2020 | Many emotions possible per sentence | 3 | Not reported
+ [CMU-MOSEI](https://github.com/A2Zadeh/CMU-MultimodalSDK) | 2018 | Many emotions possible per sentence | 3 | Not reported
+ [OMG-Emotions](https://github.com/knowledgetechnologyuhh/OMGEmotionChallenge)* | 2018 | One emotion per sentence | 5 | Majority vote
+ [MELD](https://affective-meld.github.io/) | 2018 | One emotion per sentence | 3 | Majority vote
+ IEMOCAP* | 2008 | One emotion per sentence | 3 | Majority vote
 
 
 ## Continuous Emotion Representation

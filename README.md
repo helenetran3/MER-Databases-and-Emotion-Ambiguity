@@ -10,7 +10,7 @@ Databases are divided into two categories: those with a discrete representation 
 
 ### Description of the databases
 
-The table listing the criteria for emotional ambiguity representation can be found [here](#Database-positioning-regarding-emotional-ambiguity).
+The table listing the criteria for emotional ambiguity representation can be found [in this subsection](#Databases-and-emotional-ambiguity-(D)).
 
 Name | Year | Language | Modalities | Classes | Number sentences | Description
 -----|------|----------|------------|---------|-----------------------|------------ 
@@ -20,7 +20,9 @@ Name | Year | Language | Modalities | Classes | Number sentences | Description
  [MELD](https://affective-meld.github.io/) ([paper](https://arxiv.org/pdf/1810.02508.pdf)) | 2018 | English | Vocal, Visual, Textual | Happiness, Anger, Sadness, Fear, Disgust, Surprise, Neutral | 13708 | Clips from the TV series Friends. One of the largest databases involving more than two people in a conversation.
  IEMOCAP* ([paper](https://link.springer.com/article/10.1007/s10579-008-9076-6)) | 2008 | English | Vocal, Visual, Textual | Happiness, Anger, Sadness, Neutral, Frustration | 10039 | Emotions are played out by professional actors. Widely used in affective computer research.
 
-### Database positioning regarding emotional ambiguity
+
+
+### Databases and emotional ambiguity (D)
 
 Name | Year | Final annotation | \# annotations per sentence | Aggregation of annotations
 -----|------|------------------|------------------------------------|--------------------------
@@ -31,7 +33,10 @@ Name | Year | Final annotation | \# annotations per sentence | Aggregation of an
  IEMOCAP* | 2008 | One emotion per sentence | 3 | Majority vote
 
 
+
 ## Continuous Emotion Representation
+
+The table listing the criteria for emotional ambiguity representation can be found [in this subsection](#Databases-and-emotional-ambiguity-(C)).
 
 Name | Year | Language | Modalities | Classes | Number sentences | Description
 -----|------|----------|------------|---------|-----------------------|------------ 
@@ -43,3 +48,16 @@ IEMOCAP* ([paper](https://ieeexplore.ieee.org/abstract/document/5959155)) | 2008
 
 [^SEWA]: The paper does not specify whether it is all languages combined or a specific language.
 [^SEMAINE]: No information provided on the number of annotated sentences. 
+
+
+### Databases and emotional ambiguity (C)
+
+Name | Year | Final annotation | \# annotations per sentence | Aggregation of annotations
+-----|------|------------------|------------------------------------|--------------------------
+ [MuSe-CaR](https://zenodo.org/record/4651164#.YKUmHqE69hE) | 2021 | Point in the emotional space | 5 | Evaluator Weighted Estimator
+ [SEWA](https://db.sewaproject.eu/) | 2019 | Point in the emotional space | At least 3 | Canonical Time Warping
+ [OMG-Emotions](https://github.com/knowledgetechnologyuhh/OMGEmotionChallenge)* | 2018 | Point in the emotional space | 5 | Evaluator Weighted Estimator
+ [SEMAINE](https://ieeexplore.ieee.org/abstract/document/5959155) | 2012 | Point in the emotional space | From 6 to 8 | Not reported
+ IEMOCAP* | 2008 | Single element from SAM[^IEMOCAP] | 2 | z-normalisation
+
+ [^IEMOCAP]: SAM for [Self-Assessment Manikins](https://www.sciencedirect.com/science/article/abs/pii/0005791694900639)

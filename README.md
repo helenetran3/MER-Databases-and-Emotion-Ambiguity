@@ -2,9 +2,9 @@
 
 State-of-the-art of databases used in **Multimodal Emotion Recognition** and comprised at least the visual and vocal modalities. 
 
-We also propose a focus on the representation of **emotional ambiguity** in these databases. We define emotional ambiguity as the difficulty for humans to identify, express and recognize an emotion with certainty.
+We also propose a focus on the representation of **ambiguity in emotional models** for each database. We define emotional ambiguity as the difficulty for humans to identify, express and recognize an emotion with certainty.
 
-In the following, databases will be divided into two categories: those with a [discrete representation](#Discrete-Emotion-Representation) of emotions and those with a [continuous representation](#Continuous-Emotion-Representation). Databases marked with a * offer both approaches.
+In the following, databases will be divided into two categories: those with a [discrete representation](#Discrete-Emotion-Representation) and those with a [continuous representation](#Continuous-Emotion-Representation). Databases marked with a * offer both approaches.
 
 ## Discrete Emotion Representation
 
@@ -40,7 +40,7 @@ This section present the general information of the databases that have chosen a
 
 ### Description of the Databases - Continuous
 
-Name | Year | Language | Modalities | Classes | Number sentences | Description
+Name | Year | Language | Modalities | Dimensions | Number sentences | Description
 -----|------|----------|------------|---------|-----------------------|------------ 
  [MuSe-CaR](https://zenodo.org/record/4651164#.YKUmHqE69hE) ([paper](https://dl.acm.org/doi/abs/10.1145/3423327.3423673)) | 2021 | English | Vocal, Visual, Textual | Valence, Activation, Trustworthiness | 28295 | Car reviews from YouTube. In-the-wild characteristics (e.g. reviewer visibility, ambient noises, domain-specific terms). Designed for sentiment recognition, emotion-target engagement and trustworthiness detection.
  [SEWA](https://db.sewaproject.eu/) ([paper](https://ieeexplore.ieee.org/abstract/document/8854185)) | 2019 | English, German, Hungarian, Greek, Serbian, Chinese | Vocal, Visual, Textual | Valence, Activation, Liking | 538[^SEWA] | Ordinary people from the same culture discuss advertisements via video conference. Database created for emotion recognition but also for human behavior analysis, including cultural studies.

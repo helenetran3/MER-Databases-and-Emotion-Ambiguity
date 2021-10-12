@@ -15,7 +15,7 @@
 
 ## Emotional Models
 
-:link: **Anchor Links:**
+:link: Anchor Links:
 1. [Discrete Model](#Discrete-Model): Description of discrete emotions and the main representations
 2. [Continuous Model](#Continuous-Model): Description of continuous emotions and the main representations
 
@@ -47,7 +47,7 @@ Emotions are represented by discrete affective states. This approach is the most
 
 Primary emotions are frequently chosen as classes for the development of recognition models, thus avoiding a possible overlap of emotional states. Although the discrete approach remains widely favoured in research due to its intelligibility, limiting oneself to the recognition of a primary emotion is not sufficient to describe the whole spectrum of emotions.
 
-[Go to top](##SOTA---Multimodal-Emotion-Recognition) :top:
+[Go to top](##sota---multimodal-emotion-recognition)
 
 ### Continuous Model
 
@@ -57,9 +57,8 @@ Emotions are placed in a multidimensional space. A large majority of researchers
 
 * **Activation** refers to the physiological intensity felt. Sadness, which leads to withdrawal, is associated with low activation. Anger activation is high because it releases an influx of energy that allows the individual to prepare for battle. 
 
- These two dimensions are not sufficient to characterize the emotion (e.g. both anger and fear have a negative valence and high activation). However, the third dimension does not create a consensus in the research. According to Russell et Mehrabian (1977), it could correspond to **control**. Thus, an angry individual feels in control of the situation (positive control) while a person overwhelmed by sadness seems to see the situation slipping away (negative control). The resulting model is called PAD (Pleasure, Arousal, Dominance) and is sufficient to describe all emotions according to the authors.
- 
-  In addition to better temporal resolution, the continuous approach allows for a wide range of emotional states to be represented and for variations in these states over time to be handled (Gunes et al., 2011). These advantages have led to a growing interest in affective computing.
+ These two dimensions are not sufficient to characterize the emotion (e.g. both anger and fear have a negative valence and high activation). However, the third dimension does not create a consensus in the research. 
+ * According to Russell et Mehrabian (1977), it could correspond to **control**. Thus, an angry individual feels in control of the situation (positive control) while a person overwhelmed by sadness seems to see the situation slipping away (negative control). The resulting model is called PAD (Pleasure, Arousal, Dominance) and is sufficient to describe all emotions according to the authors.
 
   <p font="italic" align="center">  
 
@@ -72,17 +71,21 @@ Emotions are placed in a multidimensional space. A large majority of researchers
   The Pleasure-Arousal-Dominance model
   </p>
 
-[Go to top](##SOTA---Multimodal-Emotion-Recognition) :top:
+  * According to Schlosberg (1954), it should be the **attention-rejection** dimension. Rejection constitutes a strong attempt to exclude the external object, while attention is the active opposite of rejection.
+ 
+  In addition to better temporal resolution, the continuous approach allows for a wide range of emotional states to be represented and for variations in these states over time to be handled (Gunes et al., 2011). These advantages have led to a growing interest in affective computing.
+
+[Go to top](##sota---multimodal-emotion-recognition)
   
 
 
 ## Databases with Discrete Emotions
 
-:link: **Anchor Links:**
+:link: Anchor Links:
 1. [Description of the Databases](#Description-of-the-databases---Discrete): General information of the databases that have chosen discrete emotions 
 2. [Databases and Emotional Ambiguity](#Databases-and-emotional-ambiguity---Discrete): Position of the databases with respect to the representation of emotional ambiguity
 
-:information_source: Databases marked with a * offer discrete and continuous representation of emotions.
+:triangular_flag_on_post: Databases marked with a * offer discrete and continuous representation of emotions.
 
 ### Description of the Databases - Discrete
 
@@ -94,7 +97,7 @@ Name | Year | Language | Modalities | Classes | Number sentences | Description
  [MELD](https://affective-meld.github.io/) ([paper](https://arxiv.org/pdf/1810.02508.pdf)) | 2018 | English | Vocal, Visual, Textual | Happiness, Anger, Sadness, Fear, Disgust, Surprise, Neutral | 13708 | Clips from the TV series Friends. One of the largest databases involving more than two people in a conversation.
  [IEMOCAP](https://sail.usc.edu/iemocap/iemocap_release.htm)* ([paper](https://link.springer.com/article/10.1007/s10579-008-9076-6)) | 2008 | English | Vocal, Visual, Textual, Markers on face, head and hand | Happiness, Anger, Sadness, Neutral, Frustration | 10039 | Emotions are played out by professional actors. Widely used in affective computer research.
 
-  [Go to top](##SOTA---Multimodal-Emotion-Recognition)
+  [Go to top](##sota---multimodal-emotion-recognition)
 
 ### Databases and Emotional Ambiguity - Discrete
 
@@ -107,15 +110,15 @@ Name | Year | Final annotation | \# annotations per sentence | Aggregation of an
  [IEMOCAP](https://sail.usc.edu/iemocap/iemocap_release.htm)* | 2008 | One emotion per sentence | 3 | Majority vote
 
 
-  [Go to top](##SOTA---Multimodal-Emotion-Recognition) :top:
+  [Go to top](##sota---multimodal-emotion-recognition)
 
 ## Databases with Continuous Emotions
 
-:link: **Anchor Links:**
+:link: Anchor Links:
 1. [Description of the Databases](#Description-of-the-databases---Continuous): General information of the databases that have chosen continuous emotions
 2. [Databases and Emotional Ambiguity](#Databases-and-emotional-ambiguity---Continuous): Position of the databases with respect to the representation of emotional ambiguity
 
-:information_source: Databases marked with a * offer discrete and continuous representation of emotions.
+:triangular_flag_on_post: Databases marked with a * offer discrete and continuous representation of emotions.
 
 ### Description of the Databases - Continuous
 
@@ -134,7 +137,7 @@ Name | Year | Language | Modalities | Dimensions | Number sentences | Descriptio
 [^EDA]: Electrodermal Activity
 [^no-info]: No information provided on the number of annotated sentences. 
 
-[Go to top](##SOTA---Multimodal-Emotion-Recognition) :top:
+[Go to top](##sota---multimodal-emotion-recognition)
 
 
 ### Databases and Emotional Ambiguity - Continuous
@@ -151,16 +154,18 @@ Name | Year | Final annotation | \# annotations per sentence | Aggregation of an
 
  [^SAM]: SAM for [Self-Assessment Manikins](https://www.sciencedirect.com/science/article/abs/pii/0005791694900639)
 
- [Go to top](##SOTA---Multimodal-Emotion-Recognition) :top:
+ [Go to top](##sota---multimodal-emotion-recognition)
 
 
  ## References
- Ekman, P. (1992). An Argument for Basic Emotions. *Cognition & Emotion 6*(3-4), 169–200.
+ Ekman, P. (1992). An Argument for Basic Emotions. *Cognition & Emotion 6*(3-4), 169–200. https://doi.org/10.1080/02699939208411068
 
- Gunes, H., B. Schuller, M. Pantic, et R. Cowie (2011).  Emotion representation, analysis andsynthesis in continuous space : A survey.  In *2011 IEEE International Conference on Automatic Face & Gesture Recognition (FG)*, pp. 827–834. IEEE.
+ Gunes, H., B. Schuller, M. Pantic, et R. Cowie (2011).  Emotion representation, analysis andsynthesis in continuous space : A survey.  In *2011 IEEE International Conference on Automatic Face & Gesture Recognition (FG)*, pp. 827–834. IEEE. https://doi.org/10.1109/FG.2011.5771357
 
- Nugier, A. (2009). Histoire et grands courants de recherche sur les émotions. *Revue électronique de Psychologie Sociale 4*(4), 8–14
+ Nugier, A. (2009). Histoire et grands courants de recherche sur les émotions. *Revue électronique de Psychologie Sociale 4*(4), 8–14. https://doi.org/10.1109/FG.2011.5771357
 
- Plutchik, R. (2001). The Nature of Emotions : Human emotions have deep evolutionary roots, a fact that may explain their complexity and provide tools for clinical practice. *American Scientist 89*(4), 344–350.
+ Plutchik, R. (2001). The Nature of Emotions : Human emotions have deep evolutionary roots, a fact that may explain their complexity and provide tools for clinical practice. *American Scientist 89*(4), 344–350. https://www.jstor.org/stable/27857503 
 
- Russell,  J.  A.  et  A.  Mehrabian  (1977).   Evidence  for  a  Three-Factor  Theory  of  Emotions. *Journal of Research in Personality 11*(3), 273–294
+ Russell,  J.  A.  et  A.  Mehrabian  (1977).   Evidence  for  a  Three-Factor  Theory  of  Emotions. *Journal of Research in Personality 11*(3), 273–294. https://doi.org/10.1016/0092-6566(77)90037-X
+
+ Schlosberg, H. (1954). Three dimensions of emotion. *Psychological Review, 61*(2), 81–88. https://doi.org/10.1037/h0054570

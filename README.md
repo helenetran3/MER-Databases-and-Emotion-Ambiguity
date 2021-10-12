@@ -47,7 +47,7 @@ Emotions are represented by discrete affective states. This approach is the most
 
 Primary emotions are frequently chosen as classes for the development of recognition models, thus avoiding a possible overlap of emotional states. Although the discrete approach remains widely favoured in research due to its intelligibility, limiting oneself to the recognition of a primary emotion is not sufficient to describe the whole spectrum of emotions.
 
-[Go to top](##sota---multimodal-emotion-recognition)
+[Go to top](#sota---multimodal-emotion-recognition)
 
 ### Continuous Model
 
@@ -75,7 +75,7 @@ Emotions are placed in a multidimensional space. A large majority of researchers
  
   In addition to better temporal resolution, the continuous approach allows for a wide range of emotional states to be represented and for variations in these states over time to be handled (Gunes et al., 2011). These advantages have led to a growing interest in affective computing.
 
-[Go to top](##sota---multimodal-emotion-recognition)
+[Go to top](#sota---multimodal-emotion-recognition)
   
 
 
@@ -97,7 +97,7 @@ Name | Year | Language | Modalities | Classes | Number sentences | Description
  [MELD](https://affective-meld.github.io/) ([paper](https://arxiv.org/pdf/1810.02508.pdf)) | 2018 | English | Vocal, Visual, Textual | Happiness, Anger, Sadness, Fear, Disgust, Surprise, Neutral | 13708 | Clips from the TV series Friends. One of the largest databases involving more than two people in a conversation.
  [IEMOCAP](https://sail.usc.edu/iemocap/iemocap_release.htm)* ([paper](https://link.springer.com/article/10.1007/s10579-008-9076-6)) | 2008 | English | Vocal, Visual, Textual, Markers on face, head and hand | Happiness, Anger, Sadness, Neutral, Frustration | 10039 | Emotions are played out by professional actors. Widely used in affective computer research.
 
-  [Go to top](##sota---multimodal-emotion-recognition)
+  [Go to top](#sota---multimodal-emotion-recognition)
 
 ### Databases and Emotional Ambiguity - Discrete
 
@@ -110,7 +110,7 @@ Name | Year | Final annotation | \# annotations per sentence | Aggregation of an
  [IEMOCAP](https://sail.usc.edu/iemocap/iemocap_release.htm)* | 2008 | One emotion per sentence | 3 | Majority vote
 
 
-  [Go to top](##sota---multimodal-emotion-recognition)
+  [Go to top](#sota---multimodal-emotion-recognition)
 
 ## Databases with Continuous Emotions
 
@@ -133,11 +133,11 @@ Name | Year | Language | Modalities | Dimensions | Number sentences | Descriptio
 [VAM](https://sail.usc.edu/VAM/vam_release.htm) ([paper](https://ieeexplore.ieee.org/abstract/document/4607572)) | 2008 | German | Vocal, Visual | Valence, Arousal, Dominance | 1018 | Videos from a German TV talk show: spontaneous emotions from unscripted discussion.
 
 [^SEWA]: The paper does not specify whether it is all languages combined or a specific language.
-[^ECG]: Electrocardiogram
-[^EDA]: Electrodermal Activity
+[^ECG]: For Electrocardiogram 
+[^EDA]: For Electrodermal Activity
 [^no-info]: No information provided on the number of annotated sentences. 
 
-[Go to top](##sota---multimodal-emotion-recognition)
+[Go to top](#sota---multimodal-emotion-recognition)
 
 
 ### Databases and Emotional Ambiguity - Continuous
@@ -154,13 +154,13 @@ Name | Year | Final annotation | \# annotations per sentence | Aggregation of an
 
  [^SAM]: SAM for [Self-Assessment Manikins](https://www.sciencedirect.com/science/article/abs/pii/0005791694900639)
 
- [Go to top](##sota---multimodal-emotion-recognition)
+ [Go to top](#sota---multimodal-emotion-recognition)
 
 
  ## References
  Ekman, P. (1992). An Argument for Basic Emotions. *Cognition & Emotion 6*(3-4), 169–200. https://doi.org/10.1080/02699939208411068
 
- Gunes, H., B. Schuller, M. Pantic, et R. Cowie (2011).  Emotion representation, analysis andsynthesis in continuous space : A survey.  In *2011 IEEE International Conference on Automatic Face & Gesture Recognition (FG)*, pp. 827–834. IEEE. https://doi.org/10.1109/FG.2011.5771357
+ Gunes, H., B. Schuller, M. Pantic, et R. Cowie (2011).  Emotion representation, analysis and synthesis in continuous space : A survey.  In *2011 IEEE International Conference on Automatic Face & Gesture Recognition (FG)*, pp. 827–834. IEEE. https://doi.org/10.1109/FG.2011.5771357
 
  Nugier, A. (2009). Histoire et grands courants de recherche sur les émotions. *Revue électronique de Psychologie Sociale 4*(4), 8–14. https://doi.org/10.1109/FG.2011.5771357
 

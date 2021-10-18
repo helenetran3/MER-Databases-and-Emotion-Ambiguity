@@ -33,7 +33,7 @@ Emotions are represented by discrete affective states. This approach is the most
 
   <p font="italic" align="center">  
 
-  <img src="images/Plutchik-wheel-eng.png" align="center" width="400" height="400">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Plutchik-wheel.svg/591px-Plutchik-wheel.svg.png" align="center" width="500" height="500">
 
   </p>
 
@@ -93,10 +93,12 @@ Name | Year | Language | Modalities | Classes | Number sentences | Description
 -----|------|----------|------------|---------|-----------------------|------------ 
  [CMU-MOSEAS](https://github.com/A2Zadeh/CMU-MultimodalSDK) ([paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8106386/)) | 2020 | French, Spanish, Portuguese, German | Vocal, Visual, Textual | Happiness, Anger, Sadness, Fear, Disgust, Surprise | 10000 per language | Monologue videos from YouTube. High diversity of topics covered by a large number of speakers. Annotations on sentiments, emotions, subjectivity and 12 personality traits. Each emotion annotated on a [0,3] Likert scale for its degree of presence.
  [CMU-MOSEI](https://github.com/A2Zadeh/CMU-MultimodalSDK) ([paper](https://aclanthology.org/P18-1208.pdf)) | 2018 | English | Vocal, Visual, Textual | Happiness, Anger, Sadness, Fear, Disgust, Surprise | 23453 | Monologue videos from YouTube. High diversity of topics covered by a large number of speakers. Annotations on emotions and sentiments. Each emotion annotated on a [0,3] Likert scale for its degree of presence.
- [OMG-Emotions](https://github.com/knowledgetechnologyuhh/OMGEmotionChallenge)* ([paper](https://ieeexplore.ieee.org/abstract/document/8489099)) | 2018 | English | Vocal, Visual, Textual | Happiness, Anger, Sadness, Fear, Disgust, Surprise, Neutral | 2400 | Monologue videos from YouTube. Uses gradual annotations with a focus on contextual emotion expressions.
  [MELD](https://affective-meld.github.io/) ([paper](https://arxiv.org/pdf/1810.02508.pdf)) | 2018 | English | Vocal, Visual, Textual | Happiness, Anger, Sadness, Fear, Disgust, Surprise, Neutral | 13708 | Clips from the TV series Friends. One of the largest databases involving more than two people in a conversation.
+ [OMG-Emotions](https://github.com/knowledgetechnologyuhh/OMGEmotionChallenge)* ([paper](https://ieeexplore.ieee.org/abstract/document/8489099)) | 2018 | English | Vocal, Visual, Textual | Happiness, Anger, Sadness, Fear, Disgust, Surprise, Neutral | 2400 | Monologue videos from YouTube. Uses gradual annotations with a focus on contextual emotion expressions.
+ [RAVDESS](https://zenodo.org/record/1188976#.YKeFlqE69Pa) ([paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0196391)) | 2018 | English | Vocal, Visual | **For speech**: Calm, Happy, Sad, Angry, Fearful, Surprise, Disgust, Neutral ; **For song**: Calm, Happy, Sad, Angry, Fearful, Neutral | For each modality (vocal only, visual only, audio-visual): 1440 for speech, 1012 for song | Isolated sentences uttered by professional actors in studio. Designed for emotion recognition in speech and songs.
  [GEMEP](https://www.unige.ch/cisa/gemep) ([paper full set](https://www.unige.ch/cisa/files/5814/6721/0641/Banziger__Scherer_-_2010_-_Introducing_the_Geneva_Multimodal_Emotion_Portrayal_GEMEP_Corpus.pdf), [paper core set](https://d1wqtxts1xzle7.cloudfront.net/46181789/Introducing_the_Geneva_Multimodal_Expres20160602-24715-1im38pf-with-cover-page-v2.pdf?Expires=1634121969&Signature=JNTyURJDn7AnFpLMqDCg8K86MUAoKFrHlq5~nOGJ88CvCCUBDjfGmrpc26~7zzbv~RGVYlvJke2c-doHVFo-ELY-UGmZg4TzKc0LJlmJdW3d-dpu8COxXKrJFOANCHBeSfmc3ecyV~jXKtbB1VTyfl8f4uVky--2~IwvXabCK4OBQG8xE4Vm5KaVyZeXd0m5f7CFgI~VBn43ykH4i~2w0kmt0ad8AlDaTvySWiSKF0GNbQwC-4lASzCUyCAtduvGKvOLEvBAUzT8aiXCFy4LOx-0qRbYKIBRRdhv~OFt2Hh76mtkfCYbbXZJO9vvZ9McmeMSled0YTa~adqILYSLIA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)) | 2010 | French | Vocal, Visual | Admiration, amusement, tenderness, anger, disgust, despair, pride, shame, anxiety, interest, irritation, joy, contempt, fear, pleasure, relief, surprise, sadness | 1260 (full set) / 154 (core set) portrayals[^no-info] | Professional actors playing out emotional scenarios. Emotions are chosen so that all the values of the valence-arousal pairs are represented (positive/negative valence, high/low arousal).
  [IEMOCAP](https://sail.usc.edu/iemocap/iemocap_release.htm)* ([paper](https://link.springer.com/article/10.1007/s10579-008-9076-6)) | 2008 | English | Vocal, Visual, Textual, Markers on face, head and hand | Happiness, Anger, Sadness, Neutral, Frustration | 10039 | Emotions are played out by professional actors. Widely used in affective computer research.
+ [eNTERFACE'05](http://www.enterface.net/enterface05/docs/results/databases/project2_database.zip) ([paper](https://ieeexplore.ieee.org/abstract/document/1623803)) | 2006 | English | Vocal, Visual | Happiness, Anger, Sadness, Fear, Disgust, Surprise, Neutral | 1166 | Isolated sentences uttered by naive subjects from 14 nations. Mood induction by listening to short stories. Black background.
 
   [Go to top](#sota---multimodal-emotion-recognition)
 
@@ -104,13 +106,14 @@ Name | Year | Language | Modalities | Classes | Number sentences | Description
 
 Name | Year | Final annotation | \# annotations per sentence | Aggregation of annotations
 -----|------|------------------|------------------------------------|--------------------------
- [CMU-MOSEAS](https://github.com/A2Zadeh/CMU-MultimodalSDK) | 2020 | Many emotions possible per sentence | 3 | Not reported
- [CMU-MOSEI](https://github.com/A2Zadeh/CMU-MultimodalSDK) | 2018 | Many emotions possible per sentence | 3 | Not reported
- [OMG-Emotions](https://github.com/knowledgetechnologyuhh/OMGEmotionChallenge)* | 2018 | One emotion per sentence | 5 | Majority vote
+ [CMU-MOSEAS](https://github.com/A2Zadeh/CMU-MultimodalSDK) | 2020 | Many emotions possible per sentence | 3 | -
+ [CMU-MOSEI](https://github.com/A2Zadeh/CMU-MultimodalSDK) | 2018 | Many emotions possible per sentence | 3 | -
  [MELD](https://affective-meld.github.io/) | 2018 | One emotion per sentence | 3 | Majority vote
- [GEMEP](https://www.unige.ch/cisa/gemep) | 2010 | One or two emotion(s) per portrayal with 4 degrees of intensity (full set) / One emotion per portrayal with 5 degrees of intensity (core set) | 23 (audio-video), 23 (audio only), 25 (video only) | Not reported
+ [OMG-Emotions](https://github.com/knowledgetechnologyuhh/OMGEmotionChallenge)* | 2018 | One emotion per sentence | 5 | Majority vote
+ [RAVDESS](https://zenodo.org/record/1188976#.YKeFlqE69Pa) | 2018 | One emotion per sentence with 2 intensities (normal, strong) | 10 | -
+ [GEMEP](https://www.unige.ch/cisa/gemep) | 2010 | One or two emotion(s) per portrayal with 4 intensities (full set) / One emotion per portrayal with 5 intensities (core set) | 23 (audio-video), 23 (audio only), 25 (video only) | -
  [IEMOCAP](https://sail.usc.edu/iemocap/iemocap_release.htm)* | 2008 | One emotion per sentence | 3 | Majority vote
-
+ [eNTERFACE'05](http://www.enterface.net/enterface05/docs/results/databases/project2_database.zip) | 2006 | One emotion per sentence | No annotation | -
 
   [Go to top](#sota---multimodal-emotion-recognition)
 
@@ -132,6 +135,7 @@ Name | Year | Language | Modalities | Dimensions | Number sentences | Descriptio
  [RECOLA](https://diuf.unifr.ch/main/diva/recola/download.html) ([paper](https://drive.google.com/file/d/0B2V_I9XKBODhNENKUnZWNFdVXzQ/view?resourcekey=0-pkUwtWY7x82Gw5zurnQNag)) | 2013 | French | Vocal, Visual, ECG[^ecg], EDA[^eda] | Valence, Arousal | 3,8 hours[^no-info] | Online dyadic interactions where participants need to collaborate to solve a survival task. Mood Induction Procedure to elicit emotion.
  [SEMAINE](https://ieeexplore.ieee.org/abstract/document/5959155) ([paper](https://ieeexplore.ieee.org/abstract/document/8489099)) | 2012 | English | Vocal, Visual, Textual | Valence, Arousal, Dominance, Power, Intensity | 190 videos[^no-info] | Volunteers interact with an artificial character to which a personality trait has been assigned (angry, happy, gloomy, sensible).
  [IEMOCAP](https://sail.usc.edu/iemocap/iemocap_release.htm)* ([paper](https://link.springer.com/article/10.1007/s10579-008-9076-6)) | 2008 | English | Vocal, Visual, Textual, Markers on face, head and hand | Valence, Arousal, Dominance | 10039 | Emotions are played out by professional actors. Widely used in affective computer research. 
+ SAL ([paper](https://mediatum.ub.tum.de/doc/980151/file.pdf)) | 2008 | English | Vocal, Visual | Valence, Arousal | 1692 turns[^no-info] | Natural human-SAL conversations involving artificial characters with different emotional personalities (angry, sad, gloomy, sensitive).
  [VAM](https://sail.usc.edu/VAM/vam_release.htm) ([paper](https://ieeexplore.ieee.org/abstract/document/4607572)) | 2008 | German | Vocal, Visual | Valence, Arousal, Dominance | 1018 | Videos from a German TV talk show: spontaneous emotions from unscripted discussion. Audio and face annotated separately.
 
 [^sewa]: The paper does not specify whether it is all languages combined or a specific language.
@@ -152,6 +156,7 @@ Name | Year | Final annotation | \# annotations per sentence | Aggregation of an
  [RECOLA](https://diuf.unifr.ch/main/diva/recola/download.html) | 2013 | Point in the emotional space | 6 | Mean Filtering
  [SEMAINE](https://ieeexplore.ieee.org/abstract/document/5959155) | 2012 | Point in the emotional space | 3 - 8 | -
  [IEMOCAP](https://sail.usc.edu/iemocap/iemocap_release.htm)* | 2008 | Single element from SAM[^sam] | 2 | Z-normalisation
+ SAL | 2008 | Point in the emotional space | 4 | Z-normalisation
  [VAM](https://sail.usc.edu/VAM/vam_release.htm) | 2008 | Single element from SAM[^sam] | 6 - 17 (audio) ; 8 - 34 (face) | -
 
  [^sam]: SAM for [Self-Assessment Manikins](https://www.sciencedirect.com/science/article/abs/pii/0005791694900639)

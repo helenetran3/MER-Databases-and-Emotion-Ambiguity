@@ -2,7 +2,7 @@
 
 **Main Contributions:**
 
-:white_check_mark: State-of-the-art of databases used in **Multimodal Emotion Recognition** and comprised at least the visual and vocal modalities. 
+:white_check_mark: State-of-the-art of databases used in **Multimodal Emotion Recognition** (MER) and comprised at least the visual and vocal modalities. 
 
 :white_check_mark: Focus on the representation of **ambiguity in emotional models** for each database. We define emotional ambiguity as the difficulty for humans to identify, express and recognize an emotion with certainty.
 
@@ -12,6 +12,11 @@
 2. [Databases with Discrete Emotions](#Databases-with-Discrete-Emotions): General description and position with respect to the representation of emotional ambiguity
 3. [Databases with Continuous Emotions](#Databases-with-Continuous-Emotions): General description and position with respect to the representation of emotional ambiguity
 
+**Interested in my work?**
+
+Feel free to contact me at: helene.tran@etu.uca.fr
+
+*The final version of our paper (in French) on the integration of emotional ambiguity in MER databases is being submitted to the 2022 French Speaking Conference on the Extraction and Management of Knowledge (EGC).*
 
 ## Emotional Models
 

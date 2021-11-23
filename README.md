@@ -62,7 +62,7 @@ Emotions are placed in a multidimensional space. A large majority of researchers
 
 * **Arousal** (or activation) refers to the physiological intensity felt. Sadness, which leads to withdrawal, is associated with low activation. Anger activation is high because it releases an influx of energy that allows the individual to prepare for battle. 
 
- These two dimensions are not sufficient to characterize the emotion (e.g. both anger and fear have a negative valence and high arousal). However, the third dimension does not create a consensus in the research. 
+ These two dimensions are not sufficient to characterize the emotion (e.g. both anger and fear have a negative valence and high arousal), hence the need of a third dimension. However, this one does not create a consensus in the research. 
  * According to Russell et Mehrabian (1977), it could correspond to **control**. Thus, an angry individual feels in control of the situation (positive control) while a person overwhelmed by sadness seems to see the situation slipping away (negative control). The resulting model is called PAD (Pleasure, Arousal, Dominance) and is sufficient to describe all emotions according to the authors.
 
   <p font="italic" align="center">  

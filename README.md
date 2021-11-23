@@ -1,4 +1,4 @@
-# SOTA - Multimodal Emotion Recognition
+# SOTA - Multimodal Emotion Recognition and Emotional Ambiguity
 
 **Main Contributions:**
 
@@ -10,7 +10,7 @@
 
 1. [Emotional Models](#Emotional-Models): Brief summary of the discrete and continuous emotion representation
 2. [Databases with Discrete Emotions](#Databases-with-Discrete-Emotions): General description and position with respect to the representation of emotional ambiguity
-3. [Databases with continuous emotions](#Databases-with-Continuous-Emotions): General description and position with respect to the representation of emotional ambiguity
+3. [Databases with Continuous Emotions](#Databases-with-Continuous-Emotions): General description and position with respect to the representation of emotional ambiguity
 
 
 ## Emotional Models

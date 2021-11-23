@@ -1,18 +1,18 @@
 # SOTA - Multimodal Emotion Recognition and Emotional Ambiguity
 
-**Main Contributions:**
+### Main Contributions
 
 :white_check_mark: State-of-the-art of databases used in **Multimodal Emotion Recognition** (MER) and comprised at least the visual and vocal modalities. 
 
 :white_check_mark: Focus on the representation of **ambiguity in emotional models** for each database. We define emotional ambiguity as the difficulty for humans to identify, express and recognize an emotion with certainty.
 
-**README Structure:**
+### README Structure
 
 1. [Emotional Models](#Emotional-Models): Brief summary of the discrete and continuous emotion representation
 2. [Databases with Discrete Emotions](#Databases-with-Discrete-Emotions): General description and position with respect to the representation of emotional ambiguity
 3. [Databases with Continuous Emotions](#Databases-with-Continuous-Emotions): General description and position with respect to the representation of emotional ambiguity
 
-**Interested in my work?**
+### Interested in my work?
 
 Feel free to contact me at: helene.tran@etu.uca.fr
 

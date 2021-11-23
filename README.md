@@ -52,7 +52,7 @@ Emotions are represented by discrete affective states. This approach is the most
 
 Primary emotions are frequently chosen as classes for the development of recognition models, thus avoiding a possible overlap of emotional states. Although the discrete approach remains widely favoured in research due to its intelligibility, limiting oneself to the recognition of a primary emotion is not sufficient to describe the whole spectrum of emotions.
 
-[Go to top](#sota---multimodal-emotion-recognition)
+[Go to top](#sota---multimodal-emotion-recognition-and-emotional-ambiguity)
 
 ### Continuous Model
 
@@ -80,7 +80,7 @@ Emotions are placed in a multidimensional space. A large majority of researchers
  
   In addition to better temporal resolution, the continuous approach allows for a wide range of emotional states to be represented and for variations in these states over time to be handled (Gunes et al., 2011). These advantages have led to a growing interest in affective computing.
 
-[Go to top](#sota---multimodal-emotion-recognition)
+[Go to top](#sota---multimodal-emotion-recognition-and-emotional-ambiguity)
   
 
 
@@ -105,7 +105,7 @@ Name | Year | Language | Modalities | Classes | Number sentences | Description
  [IEMOCAP](https://sail.usc.edu/iemocap/iemocap_release.htm)* ([paper](https://link.springer.com/article/10.1007/s10579-008-9076-6)) | 2008 | English | Vocal, Visual, Textual, Markers on face, head and hand | Happiness, Anger, Sadness, Neutral, Frustration | 10039 | Emotions are played out by professional actors. Widely used in affective computer research.
  [eNTERFACE'05](http://www.enterface.net/enterface05/docs/results/databases/project2_database.zip) ([paper](https://ieeexplore.ieee.org/abstract/document/1623803)) | 2006 | English | Vocal, Visual | Happiness, Anger, Sadness, Fear, Disgust, Surprise, Neutral | 1166 | Isolated sentences uttered by naive subjects from 14 nations. Mood induction by listening to short stories. Black background.
 
-  [Go to top](#sota---multimodal-emotion-recognition)
+  [Go to top](#sota---multimodal-emotion-recognition-and-emotional-ambiguity)
 
 ### Databases and Emotional Ambiguity - Discrete
 
@@ -120,7 +120,7 @@ Name | Year | Final annotation | \# annotations per sentence | Aggregation of an
  [IEMOCAP](https://sail.usc.edu/iemocap/iemocap_release.htm)* | 2008 | One emotion per sentence | 3 | Majority vote
  [eNTERFACE'05](http://www.enterface.net/enterface05/docs/results/databases/project2_database.zip) | 2006 | One emotion per sentence | No annotation | -
 
-  [Go to top](#sota---multimodal-emotion-recognition)
+  [Go to top](#sota---multimodal-emotion-recognition-and-emotional-ambiguity)
 
 ## Databases with Continuous Emotions
 
@@ -148,7 +148,7 @@ Name | Year | Language | Modalities | Dimensions | Number sentences | Descriptio
 [^eda]: For Electrodermal Activity
 [^no-info]: No information provided on the number of annotated sentences. 
 
-[Go to top](#sota---multimodal-emotion-recognition)
+[Go to top](#sota---multimodal-emotion-recognition-and-emotional-ambiguity)
 
 
 ### Databases and Emotional Ambiguity - Continuous
@@ -166,7 +166,7 @@ Name | Year | Final annotation | \# annotations per sentence | Aggregation of an
 
  [^sam]: SAM for [Self-Assessment Manikins](https://www.sciencedirect.com/science/article/abs/pii/0005791694900639)
 
- [Go to top](#sota---multimodal-emotion-recognition)
+ [Go to top](#sota---multimodal-emotion-recognition-and-emotional-ambiguity)
 
 
  ## References

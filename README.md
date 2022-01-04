@@ -1,17 +1,22 @@
-# SOTA - Multimodal Emotion Recognition
+# SOTA - Multimodal Emotion Recognition and Emotional Ambiguity
 
-**Main Contributions:**
+### Main Contributions
 
-:white_check_mark: State-of-the-art of databases used in **Multimodal Emotion Recognition** and comprised at least the visual and vocal modalities. 
+:white_check_mark: State-of-the-art of databases used in **Multimodal Emotion Recognition** (MER) and comprised at least the visual and vocal modalities. 
 
 :white_check_mark: Focus on the representation of **ambiguity in emotional models** for each database. We define emotional ambiguity as the difficulty for humans to identify, express and recognize an emotion with certainty.
 
-**README Structure:**
+### README Structure
 
 1. [Emotional Models](#Emotional-Models): Brief summary of the discrete and continuous emotion representation
 2. [Databases with Discrete Emotions](#Databases-with-Discrete-Emotions): General description and position with respect to the representation of emotional ambiguity
-3. [Databases with continuous emotions](#Databases-with-Continuous-Emotions): General description and position with respect to the representation of emotional ambiguity
+3. [Databases with Continuous Emotions](#Databases-with-Continuous-Emotions): General description and position with respect to the representation of emotional ambiguity
 
+### Interested in my work?
+
+Feel free to contact me at: helene.tran@etu.uca.fr
+
+*The final version of our paper (in French) on the integration of emotional ambiguity in MER databases is being submitted to the 2022 French Speaking Conference on the Extraction and Management of Knowledge (EGC).*
 
 ## Emotional Models
 
@@ -47,7 +52,7 @@ Emotions are represented by discrete affective states. This approach is the most
 
 Primary emotions are frequently chosen as classes for the development of recognition models, thus avoiding a possible overlap of emotional states. Although the discrete approach remains widely favoured in research due to its intelligibility, limiting oneself to the recognition of a primary emotion is not sufficient to describe the whole spectrum of emotions.
 
-[Go to top](#sota---multimodal-emotion-recognition)
+[Go to top](#sota---multimodal-emotion-recognition-and-emotional-ambiguity)
 
 ### Continuous Model
 
@@ -57,7 +62,7 @@ Emotions are placed in a multidimensional space. A large majority of researchers
 
 * **Arousal** (or activation) refers to the physiological intensity felt. Sadness, which leads to withdrawal, is associated with low activation. Anger activation is high because it releases an influx of energy that allows the individual to prepare for battle. 
 
- These two dimensions are not sufficient to characterize the emotion (e.g. both anger and fear have a negative valence and high arousal). However, the third dimension does not create a consensus in the research. 
+ These two dimensions are not sufficient to characterize the emotion (e.g. both anger and fear have a negative valence and high arousal), hence the need of a third dimension. However, this one does not create a consensus in the research. 
  * According to Russell et Mehrabian (1977), it could correspond to **control**. Thus, an angry individual feels in control of the situation (positive control) while a person overwhelmed by sadness seems to see the situation slipping away (negative control). The resulting model is called PAD (Pleasure, Arousal, Dominance) and is sufficient to describe all emotions according to the authors.
 
   <p font="italic" align="center">  
@@ -87,7 +92,7 @@ Emotions are placed in a multidimensional space. A large majority of researchers
  
   In addition to better temporal resolution, the continuous approach allows for a wide range of emotional states to be represented and for variations in these states over time to be handled (Gunes et al., 2011). These advantages have led to a growing interest in affective computing.
 
-[Go to top](#sota---multimodal-emotion-recognition)
+[Go to top](#sota---multimodal-emotion-recognition-and-emotional-ambiguity)
   
 
 
@@ -112,7 +117,7 @@ Name | Year | Language | Modalities | Classes | Number sentences | Description
  [IEMOCAP](https://sail.usc.edu/iemocap/iemocap_release.htm)* ([paper](https://link.springer.com/article/10.1007/s10579-008-9076-6)) | 2008 | English | Vocal, Visual, Textual, Markers on face, head and hand | Happiness, Anger, Sadness, Neutral, Frustration | 10039 | Emotions are played out by professional actors. Widely used in affective computer research.
  [eNTERFACE'05](http://www.enterface.net/enterface05/docs/results/databases/project2_database.zip) ([paper](https://ieeexplore.ieee.org/abstract/document/1623803)) | 2006 | English | Vocal, Visual | Happiness, Anger, Sadness, Fear, Disgust, Surprise, Neutral | 1166 | Isolated sentences uttered by naive subjects from 14 nations. Mood induction by listening to short stories. Black background.
 
-  [Go to top](#sota---multimodal-emotion-recognition)
+  [Go to top](#sota---multimodal-emotion-recognition-and-emotional-ambiguity)
 
 ### Databases and Emotional Ambiguity - Discrete
 
@@ -127,7 +132,7 @@ Name | Year | Final annotation | \# annotations per sentence | Aggregation of an
  [IEMOCAP](https://sail.usc.edu/iemocap/iemocap_release.htm)* | 2008 | One emotion per sentence | 3 | Majority vote
  [eNTERFACE'05](http://www.enterface.net/enterface05/docs/results/databases/project2_database.zip) | 2006 | One emotion per sentence | No annotation | -
 
-  [Go to top](#sota---multimodal-emotion-recognition)
+  [Go to top](#sota---multimodal-emotion-recognition-and-emotional-ambiguity)
 
 ## Databases with Continuous Emotions
 
@@ -155,7 +160,7 @@ Name | Year | Language | Modalities | Dimensions | Number sentences | Descriptio
 [^eda]: For Electrodermal Activity
 [^no-info]: No information provided on the number of annotated sentences. 
 
-[Go to top](#sota---multimodal-emotion-recognition)
+[Go to top](#sota---multimodal-emotion-recognition-and-emotional-ambiguity)
 
 
 ### Databases and Emotional Ambiguity - Continuous
@@ -173,7 +178,7 @@ Name | Year | Final annotation | \# annotations per sentence | Aggregation of an
 
  [^sam]: SAM for [Self-Assessment Manikins](https://www.sciencedirect.com/science/article/abs/pii/0005791694900639)
 
- [Go to top](#sota---multimodal-emotion-recognition)
+ [Go to top](#sota---multimodal-emotion-recognition-and-emotional-ambiguity)
 
 
  ## References

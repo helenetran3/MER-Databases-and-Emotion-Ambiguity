@@ -71,6 +71,18 @@ Emotions are placed in a multidimensional space. A large majority of researchers
   The Pleasure-Arousal-Dominance model (Source: Buechel et Hahn, 2016)
   </p>
 
+
+  <p font="italic" align="center">  
+
+  <img src="my-PAD.png" align="center" width="350" height="300" alt="PAD model french français">
+
+  </p>
+
+  
+  <p font="italic" align="center"> 
+  The Pleasure-Arousal-Dominance model, french version (based on Karg et al., 2013)
+  </p>
+
   * According to Schlosberg (1954), it should be the **attention-rejection** dimension. Rejection is related to a strong attempt to exclude the external object, while attention is the active opposite of rejection.
  
   In addition to better temporal resolution, the continuous approach allows for a wide range of emotional states to be represented and for variations in these states over time to be handled (Gunes et al., 2011). These advantages have led to a growing interest in affective computing.
@@ -171,6 +183,8 @@ Name | Year | Final annotation | \# annotations per sentence | Aggregation of an
  Ekman, P. (1992). An Argument for Basic Emotions. *Cognition & Emotion 6*(3-4), 169–200. https://doi.org/10.1080/02699939208411068
 
  Gunes, H., B. Schuller, M. Pantic, et R. Cowie (2011).  Emotion representation, analysis and synthesis in continuous space : A survey.  In *2011 IEEE International Conference on Automatic Face & Gesture Recognition (FG)*, pp. 827–834. IEEE. https://doi.org/10.1109/FG.2011.5771357
+
+ Karg, M., Samadani, A. A., Gorbet, R., Kühnlenz, K., Hoey, J., & Kulić, D. (2013). Body movements for affective expression: A survey of automatic recognition and generation. *IEEE Transactions on Affective Computing*, 4(4), 341-359.
 
  Nugier, A. (2009). Histoire et grands courants de recherche sur les émotions. *Revue électronique de Psychologie Sociale 4*(4), 8–14. https://doi.org/10.1109/FG.2011.5771357
 

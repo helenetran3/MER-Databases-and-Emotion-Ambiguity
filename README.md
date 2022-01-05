@@ -16,7 +16,24 @@
 
 Feel free to contact me at: helene.tran@etu.uca.fr
 
-*The final version of our paper (in French) on the integration of emotional ambiguity in MER databases is being submitted to the 2022 French Speaking Conference on the Extraction and Management of Knowledge (EGC).*
+Please cite the following paper if our work is useful for your research:
+
+```tex
+@inproceedings{tran:hal-03485239,
+  TITLE = {{L'ambigu{\"i}t{\'e} dans la repr{\'e}sentation des {\'e}motions : {\'e}tat de l'art des bases de donn{\'e}es multimodales}},
+  AUTHOR = {Tran, H{\'e}l{\`e}ne and Brelet, Lisa and Falih, Issam and Goblet, Xavier and Mephu Nguifo, Engelbert},
+  URL = {https://hal.archives-ouvertes.fr/hal-03485239},
+  BOOKTITLE = {{Conf{\'e}rence Extraction et Gestion de Connaissances}},
+  ADDRESS = {Blois, France},
+  YEAR = {2022},
+  MONTH = Jan,
+  PDF = {https://hal.archives-ouvertes.fr/hal-03485239/file/EGC2022-article_final.pdf},
+  HAL_ID = {hal-03485239},
+  HAL_VERSION = {v1},
+}
+```
+
+*The final version of our paper (in French) on the integration of emotional ambiguity in MER databases is being submitted to the 2022 French Speaking Conference on the Extraction and Management of Knowledge (EGC). We will update this README once the paper is publicly available.*
 
 ## Emotional Models
 

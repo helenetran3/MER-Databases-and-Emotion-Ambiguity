@@ -12,6 +12,11 @@
 2. [Databases with Discrete Emotions](#Databases-with-Discrete-Emotions): General description and position with respect to the representation of emotional ambiguity
 3. [Databases with Continuous Emotions](#Databases-with-Continuous-Emotions): General description and position with respect to the representation of emotional ambiguity
 
+### Minutes of Madness
+
+A 3-minute presentation video (:fr:) for an overview of the problem of emotional ambiguity representation in multimodal databases:
+https://www.youtube.com/watch?v=pDQ1hpQJF8Q&list=PLApKApkHPMWHARfMnXMfYRyskRIv_huxM&index=10
+
 ### Interested in my work?
 
 Feel free to contact me at: helene.tran@etu.uca.fr
@@ -19,21 +24,17 @@ Feel free to contact me at: helene.tran@etu.uca.fr
 Please cite the following paper if our work is useful for your research:
 
 ```tex
-@inproceedings{tran:hal-03485239,
-  TITLE = {{L'ambigu{\"i}t{\'e} dans la repr{\'e}sentation des {\'e}motions : {\'e}tat de l'art des bases de donn{\'e}es multimodales}},
-  AUTHOR = {Tran, H{\'e}l{\`e}ne and Brelet, Lisa and Falih, Issam and Goblet, Xavier and Mephu Nguifo, Engelbert},
-  URL = {https://hal.archives-ouvertes.fr/hal-03485239},
-  BOOKTITLE = {{Conf{\'e}rence Extraction et Gestion de Connaissances}},
-  ADDRESS = {Blois, France},
-  YEAR = {2022},
-  MONTH = Jan,
-  PDF = {https://hal.archives-ouvertes.fr/hal-03485239/file/EGC2022-article_final.pdf},
-  HAL_ID = {hal-03485239},
-  HAL_VERSION = {v1},
+@article{RNTI/papers/1002719,
+  author    = {Hélène Tran and Lisa Brelet and Issam Falih and Xavier Goblet and Engelbert Mephu Nguifo},
+  title     = {L'ambiguïté dans la représentation des émotions : état de l'art des bases de données multimodales},
+  journal = {Revue des Nouvelles Technologies de l'Information},
+  volume = {Extraction et Gestion des Connaissances, RNTI-E-38},
+  year      = {2022},
+  pages     = {87-98}
 }
 ```
 
-*The final version of our paper (in French) on the integration of emotional ambiguity in MER databases is being submitted to the 2022 French Speaking Conference on the Extraction and Management of Knowledge (EGC). We will update this README once the paper is publicly available.*
+*The final version of our paper (in French) on the integration of emotional ambiguity in MER databases will be available soon on this link: https://editions-rnti.fr/?inprocid=1002719, for the 2022 French Speaking Conference on the Extraction and Management of Knowledge (EGC). We will update this README once the paper is publicly available.*
 
 ## Emotional Models
 

@@ -12,14 +12,18 @@
 2. [Databases with Discrete Emotions](#Databases-with-Discrete-Emotions): General description and position with respect to the representation of emotional ambiguity
 3. [Databases with Continuous Emotions](#Databases-with-Continuous-Emotions): General description and position with respect to the representation of emotional ambiguity
 
-### Minutes of Madness
+### Research Article
 
-A 3-minute presentation video (:fr:) for an overview of the problem of emotional ambiguity representation in multimodal databases:
+The full article describes the main emotional models and proposes a literature review of the most used trimodal databases (images, voice, text), with a study of emotional ambiguity representation.
+
+> Hélène Tran, Lisa Brelet, Issam Falih, Xavier Goblet, & Engelbert Mephu Nguifo (2022). L'ambiguïté dans la représentation des émotions : état de l'art des bases de données multimodales. *Revue des Nouvelles Technologies de l'Information, Extraction et Gestion des Connaissances, RNTI-E-38, 87-98.* https://editions-rnti.fr/?inprocid=1002719
+
+Bonus! Our 3-minute presentation video (:fr:) is here:
 https://www.youtube.com/watch?v=pDQ1hpQJF8Q&list=PLApKApkHPMWHARfMnXMfYRyskRIv_huxM&index=10
 
 ### Interested in my work?
 
-Feel free to contact me at: helene.tran@etu.uca.fr
+Feel free to contact us at: helene.tran@doctorant.uca.fr
 
 Please cite the following paper if our work is useful for your research:
 
@@ -33,8 +37,6 @@ Please cite the following paper if our work is useful for your research:
   pages     = {87-98}
 }
 ```
-
-*The final version of our paper (in French) on the integration of emotional ambiguity in MER databases will be available soon on this link: https://editions-rnti.fr/?inprocid=1002719, for the 2022 French Speaking Conference on the Extraction and Management of Knowledge (EGC). We will update this README once the paper is publicly available.*
 
 ## Emotional Models
 

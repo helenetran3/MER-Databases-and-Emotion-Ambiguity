@@ -1,4 +1,4 @@
-# SOTA - Multimodal Emotion Recognition and Emotional Ambiguity
+# SOTA - Multimodal Emotion Recognition Databases and Emotional Ambiguity
 
 ### Main Contributions
 
